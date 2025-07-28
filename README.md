@@ -83,6 +83,9 @@ n8n execute --id=ee2Jjn9OK2kwlzyu
 ```
 
 ### LanceDB Dynamic Search Workflow
+
+![n8n LanceDB Workflow](n8n_lancedb.png)
+
 ```bash
 # Import workflow
 n8n import:workflow --input=LanceDB/lancedb-flexible-question-workflow.json
@@ -163,6 +166,11 @@ curl "http://127.0.0.1:8000/manual_search_get?question=What%20are%20the%20paymen
 3. **Code Node** - Processes and formats the API response
 
 ### LanceDB Dynamic Workflow
+
+The LanceDB workflow provides dynamic knowledge base search with vector embeddings:
+
+![n8n LanceDB Workflow](n8n_lancedb.png)
+
 1. **Manual Trigger** - Starts the workflow execution
 2. **Set Question** - Code node that defines the question to ask
 3. **Health Check** - Verifies LanceDB API status
