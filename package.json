@@ -1,0 +1,20 @@
+{
+  "name": "hello-world-api",
+  "version": "1.0.0",
+  "description": "Simple Hello World API for n8n workflow testing",
+  "main": "hello-world-api.js",
+  "scripts": {
+    "start": "node hello-world-api.js",
+    "dev": "nodemon hello-world-api.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["api", "hello-world", "n8n"],
+  "author": "",
+  "license": "MIT"
+} 
