@@ -95,6 +95,9 @@ n8n execute --id=JiECyTOfiTFTs4N2
 ```
 
 ### Cognee Enhanced RAG Workflow
+
+![n8n Cognee API Workflow](n8n_CogneeAPI.png)
+
 ```bash
 # Import workflow
 n8n import:workflow --input=cognee/cognee-flexible-question-workflow.json
@@ -168,6 +171,11 @@ curl "http://127.0.0.1:8000/manual_search_get?question=What%20are%20the%20paymen
 6. **Process Results** - Formats and displays all responses
 
 ### Cognee Dynamic Workflow
+
+The Cognee workflow provides enhanced RAG capabilities with AI memory simulation:
+
+![n8n Cognee API Workflow](n8n_CogneeAPI.png)
+
 1. **Manual Trigger** - Starts the workflow execution
 2. **Set Question** - Code node that defines the question to ask
 3. **Health Check** - Verifies Cognee API status
