@@ -151,7 +151,12 @@ n8n import:workflow --input=<file.json>
 
 # Export workflow
 n8n export:workflow --id=<workflow-id>
+
+# Update Workflow
+n8n update:workflow --id=tMNH3hrYHzcH9Tlw --input=LanceDB/lancedb-simple-workflow.json
 ```
+
+
 
 ## Troubleshooting
 
